@@ -1,93 +1,152 @@
 body{
 
-background-color: rgb(84, 26, 131);
-background-image: linear-gradient(to bottom, rgba(168, 154, 76, 0), rgba(241, 237, 7, 0.226));
-color: white;
-margin: 0;
-padding: 0;
-
-
-}
-
-header{
-
-    position:relative;
-    height: 8vh;
-    border: 3px solid white;
-    background-image: url('PurRetPat.gif');
-    background-size: 20%;
+    background-color: rgb(84, 26, 131);
+    background-image: linear-gradient(to bottom, rgba(168, 154, 76, 0), rgba(241, 237, 7, 0.226));
+    color: white;
     margin: 0;
     padding: 0;
-
-}
-
-.logo{
-
-    position: relative;
-    display: block;
-    margin-left: auto;
-    width: 29%;
-    transform: rotate(7deg);
-    margin-right: 1%;
-
-}
-
-
-
-.Collg{
-
-    position: relative;
-    display: block;
-    float: right;
-    margin-top: -29%;
-    width: 32%;
-    margin-right: 20%;
-}
-
-#lists{
-    list-style-type: none;
-    margin-top: -13.7%;
-}
-
-.facebook{
-
-    width: 10%;
-    position: relative;
-
-}
-
-.twitter{
-
-    width: 10%;
-    position: relative;
-
-}
-
-.twittern{
-
-    width: 10%;
-    position: relative;
-
-}
-
-.github{
-
-    width: 10%;
-    position: relative;
-
-}
-
-#boxes{
-
-
     
-}
-
-#boxes:hover{
-
-    transform: rotate(-8deg);
-    position: relative;
-    margin-left: 3%;
-
-
-}
+    
+    }
+    
+    header{
+    
+        position:relative;
+        height: 8vh;
+        border: 3px solid white;
+        background-image: url('PurRetPat.gif');
+        background-size: 20%;
+        margin: 0;
+        padding: 0;
+    
+    }
+    
+    .logo{
+    
+        position: relative;
+        display: block;
+        margin-left: auto;
+        width: 29%;
+        transform: rotate(7deg);
+        margin-right: 1%;
+    
+    }
+    
+    
+    
+    .Collg{
+    
+        position: relative;
+        display: block;
+        float: right;
+        margin-top: -29%;
+        width: 32%;
+        margin-right: 37%;
+    }
+    
+    .lists{
+        list-style-type: none;
+        margin-top: -13.7%;
+    }
+    
+    .facebook{
+    
+        width: 10%;
+        position: relative;
+    
+    }
+    
+    .twitter{
+    
+        width: 10%;
+        position: relative;
+    
+    }
+    
+    .twittern{
+    
+        width: 10%;
+        position: relative;
+    
+    }
+    
+    .github{
+    
+        width: 10%;
+        position: relative;
+    
+    }
+    
+    
+    /* SPACE */
+    
+    
+    .facTe{
+    
+        width: 13%;
+        position: relative;
+    
+    }
+    
+    .twitTe{
+    
+        width: 13%;
+        position: relative;
+    
+    }
+    
+    .twitTen{
+    
+        width: 13%;
+        position: relative;
+    
+    }
+    
+    .gitTe{
+    
+        width: 13%;
+        position: relative;
+    
+    }
+    
+    #boxes{
+    
+    
+        
+    }
+    
+    #boxes:hover{
+    
+        transform: rotate(-8deg);
+        position: relative;
+        margin-left: 3%;
+    
+    
+    }
+    
+    .funny{
+    
+        position: relative;
+        display: block;
+        float: right;
+        margin-top: -15%;
+        margin-right: 10%;
+        display: block;
+        cursor:grab;
+    
+    }
+    
+    .funny summary{
+        list-style-type: '👇 '
+    }
+    
+    .cmp{
+    
+    cursor: pointer;
+    
+    }
+    
+    .cat {
+        color: aqua;
+    }
+        
