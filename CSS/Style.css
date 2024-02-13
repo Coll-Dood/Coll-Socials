@@ -12,10 +12,10 @@ body{
     header{
     
         position:relative;
-        height: 80px;
+        height: 8vh;
         border: 3px solid white;
         background-image: url('PurRetPat.gif');
-        background-size: 20%;
+        background-size: 40%;
         margin: 0;
         padding: 0;
     
@@ -40,7 +40,7 @@ body{
         display: block;
         float: right;
         margin-top: -29%;
-        width: 32%;
+        width: 27%;
         margin-right: 37%;
     }
     
@@ -151,54 +151,103 @@ body{
     }
         
 
-    @media (max-width:750px) {
+@media only screen and (max-width:750px) {
 
-        .facebook{
+    .logo{
     
-            width: 30%;
-            position: relative;
-        
-        }
-        
-        .twitter{
-        
-            width: 30%;
-            position: relative;
-        
-        }
-        
-        .twittern{
-        
-            width: 30%;
-            position: relative;
-        
-        }
-        
-        .github{
-        
-            width: 30%;
-            position: relative;
-        
-        }
-
-        .Collg{
-    
-            position: relative;
-            display: block;
-            float: right;
-            margin-top: 29%;
-            width: 32%;
-            margin-right: 7%;
-        }
-
-        .funny{
-    
-            position: relative;
-            display: block;
-            float: right;
-            margin-top: -80%;
-            margin-right: 10%;
-            display: block;
-            cursor:grab;
-        
+        position: relative;
+        display: block;
+        margin-left: auto;
+        width: 45%;
+        transform: rotate(7deg);
+        margin-right: 5%;
     }
+
+    .facebook{
+
+        width: 27%;
+        position: relative;
+    
+    }
+    
+    .twitter{
+    
+        width: 27%;
+        position: relative;
+    
+    }
+    
+    .twittern{
+    
+        width: 27%;
+        position: relative;
+    
+    }
+    
+    .github{
+    
+        width: 27%;
+        position: relative;
+    
+    }
+
+    .Collg{
+
+        position: relative;
+        display: block;
+        float: right;
+        width: 65%;
+        margin-top: 9%;
+        margin-right: 17%;
+    }
+
+    .funny{
+
+        position: relative;
+        display: block;
+        float: right;
+        margin-top: -80%;
+        margin-right: 10%;
+        display: block;
+        cursor:grab;
+     }
+
+        header{
+    
+            position:relative;
+            height: 5vh;
+            border: 3px solid white;
+            background-image: url('PurRetPat.gif');
+            background-size: 40%;
+            margin: 0;
+            padding: 0;
+    }
+
+    .facTe{
+    
+        width: 40%;
+        position: relative;
+    
+    }
+    
+    .twitTe{
+    
+        width: 40%;
+        position: relative;
+    
+    }
+    
+    .twitTen{
+    
+        width: 40%;
+        position: relative;
+    
+    }
+    
+    .gitTe{
+    
+        width: 40%;
+        position: relative;
+    
+    }
+}
