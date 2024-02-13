@@ -12,7 +12,7 @@ body{
     header{
     
         position:relative;
-        height: 8vh;
+        height: 80px;
         border: 3px solid white;
         background-image: url('PurRetPat.gif');
         background-size: 20%;
@@ -150,3 +150,55 @@ body{
         color: aqua;
     }
         
+
+    @media (max-width:750px) {
+
+        .facebook{
+    
+            width: 30%;
+            position: relative;
+        
+        }
+        
+        .twitter{
+        
+            width: 30%;
+            position: relative;
+        
+        }
+        
+        .twittern{
+        
+            width: 30%;
+            position: relative;
+        
+        }
+        
+        .github{
+        
+            width: 30%;
+            position: relative;
+        
+        }
+
+        .Collg{
+    
+            position: relative;
+            display: block;
+            float: right;
+            margin-top: 29%;
+            width: 32%;
+            margin-right: 7%;
+        }
+
+        .funny{
+    
+            position: relative;
+            display: block;
+            float: right;
+            margin-top: -80%;
+            margin-right: 10%;
+            display: block;
+            cursor:grab;
+        
+    }
