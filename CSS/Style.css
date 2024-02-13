@@ -139,6 +139,8 @@ body{
     .funny summary{
         list-style-type: '👇 '
     }
+
+    
     
     .cmp{
     
@@ -249,5 +251,10 @@ body{
         width: 40%;
         position: relative;
     
+    }
+    
+    .funny{
+
+        font-size: 10px;
     }
 }
